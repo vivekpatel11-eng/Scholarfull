@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300">
+  <!-- Transparent background -->
+
+  <!-- Red Circle to the left of Scholarful -->
+  <circle cx="90" cy="140" r="45" fill="red" />
+
+  <!-- Scholarful Text -->
+  <text x="140" y="160" font-family="Arial, sans-serif" font-size="72" fill="white" font-weight="bold">
+    Scholarful
+  </text>
+
+  <!-- Tagline below Scholarful -->
+  <text x="140" y="200" font-family="Arial, sans-serif" font-size="24" fill="white">
+    Grow With Us In Our Life
+  </text>
+
+  <!-- Vertical FOUNDATION to the right of Scholarful -->
+  <text x="500" y="160" font-family="Arial, sans-serif" font-size="24" fill="white"
+        transform="rotate(90 500,160)" text-anchor="middle">
+    FOUNDATION
+  </text>
+
+  <!-- ESTD. 2026 at bottom right of Scholarful -->
+  <text x="410" y="260" font-family="Arial, sans-serif" font-size="20" fill="white">
+    ESTD. 2026
+  </text>
+</svg>
