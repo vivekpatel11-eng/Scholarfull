@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url("assest/image/bg.jpg");
+    background-position: center;
+    background-repeat: center center;
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    height:80vh;
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+
+}
+span img{
+ color:azure;
+ width: 400px;
+ left: 2px;
+ z-index: 5;
+ position: fixed;
+ }
+
+ /* Desigining of All Button */
+
+.login {
+    position: absolute;   /* allows free placement */
+    left: 20px;           /* distance from the left edge */
+    top: 35%;             /* halfway down the page */
+    transform: translateY(-50%); /* perfectly center vertically */
+     z-index: 5;
+}
+
+.login a {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.login a:hover {
+    background: #555;
+}
+
+.home {
+    position: absolute;   /* allows free placement */
+    left: 20px;           /* distance from the left edge */
+    top: 50%;             /* halfway down the page */
+    transform: translateY(-50%); /* perfectly center vertically */
+    z-index: 5;
+}
+
+
+.home a {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 2%;
+    transition: background 0.3s;
+}
+
+.history a:hover {
+    background: #555;
+}
+.history {
+    position: absolute;   /* allows free placement */
+    left: 20px;           /* distance from the left edge */
+    top: 60%;             /* halfway down the page */
+    transform: translateY(-50%); /* perfectly center vertically */
+    z-index: 5;
+}
+
+
+.history a {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 16.5px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.home a:hover {
+    background: #555;
+}
+
+
+
+.profile {
+    position: absolute;   /* allows free placement */
+    left: 20px;           /* distance from the left edge */
+    top: 70%;             /* halfway down the page */
+    transform: translateY(-50%); /* perfectly center vertically */
+    z-index: 5;
+}
+
+.profile a {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10%;
+    transition: background 0.3s;
+}
+
+.profile a:hover {
+    background: #555;
+}
+
+/* ____________________________________ */
+
+
+
+
+
